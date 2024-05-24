@@ -1,0 +1,22 @@
+{
+  "name": "UartKeyboard",
+  "version": "0.1.0",
+  "description": "MBED OS Library for UART connected keyboard controller (similar PS/2)",
+  "keywords": "UART, Keyboard, mbed os",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/jaster-prj/mbed-uart-keyboard.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Tobias Jaster",
+      "email": "t.jaster@posteo.de",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "mbed",
+  "platforms": "*"
+}
