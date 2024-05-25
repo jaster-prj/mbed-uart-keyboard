@@ -1,4 +1,4 @@
-#include "../inc/uart_keyboard.h"
+#include "../include/uart_keyboard.h"
 
 UartKeyboard *uart_keyboard;
 

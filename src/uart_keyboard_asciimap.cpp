@@ -1,4 +1,4 @@
-#include "../inc/uart_keyboard_asciimap.h"
+#include "../include/uart_keyboard_asciimap.h"
 
 const AsciiMap asciiMapList[ASCII_MAP_SIZE] = {
     (AsciiMap) {.scancode = (Scancode) {.special = 0, .code = 0x2F}, .none=new TypeCode{.type=CHAR, .code='v'}, .shift=new TypeCode{.type=CHAR, .code='V'}, .alt=NULL, .strg=new TypeCode{.type=EVENT, .code=KB_EVENT_PAST}, .shiftalt=NULL, .altstrg=NULL, .strgshift=NULL, .strgaltshift=NULL}, // 00 - V
